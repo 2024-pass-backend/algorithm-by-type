@@ -1,7 +1,6 @@
 import sys
-## m은 4, n은 6
 m, n = tuple(map(int, sys.stdin.readline().split()))
-chars = sorted(input().split(' '))
+chars = sorted(input().split())
 used = [0] * n
 selected = [0] * m
 
