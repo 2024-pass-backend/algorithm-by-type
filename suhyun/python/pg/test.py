@@ -9,3 +9,10 @@ print(len(a))
 
 print(chr(122))
 print(ord('v'))
+
+str = "string"
+print(str[3])
+
+str = "123"
+strr = "1234"
+print(int(str))
