@@ -36,3 +36,6 @@ else:
 a = [i for i in range(1, 6)]
 print("a")
 print(a)
+
+numbers = [1,1,1]
+print(*numbers)
